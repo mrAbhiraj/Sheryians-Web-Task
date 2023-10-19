@@ -1,0 +1,174 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+/* Caveat */
+/* Poiret One */
+/* Kaushan Script */
+/* Amaranth */
+
+#main{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+}
+#nav{
+    font-family: Open Sans;
+    font-size: 12px;
+    font-weight: 400;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 80px;
+}
+#leftnav{
+
+}
+#rightnav{
+    display: flex;
+    align-items: center;
+}
+#rightnav h2{
+    padding: 0px 20px;
+}
+#right i {
+    font-weight: 900;
+    font-family: Bebas Neue;
+    font-size: 50px;
+}
+#cntn h2{
+    position: absolute;
+    top: 37%;
+    left: 5%;
+    transform: translate(0%, -50%);
+    font-size: 80px;
+    line-height: 80px;
+    font-family: Open Sans;
+}
+#para{
+        position: absolute;
+        width: 55%;
+        left: 5%;
+        top: 63%;
+}
+#btn{
+        margin-top: 10px;
+        position: absolute;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #2EAB4A;
+        border: none;
+        color: white;
+        width: 35%;
+        border-radius: 20px;
+
+}
+#btn button{
+    border: none;
+    /* padding: 5px 70px; */
+    margin-left: 20px;
+    background-color: #2EAB4A;
+    color: white;
+}
+#btn i {
+    padding: 10px;
+    font-size: 17px;
+}
+#play{
+    position: absolute;
+    font-size: 50px;
+    left: 28.8%;
+    top: 8px;
+    color: rgb(255, 145, 0);
+}
+#plus{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 37%;
+    left: 11.5%;
+    border-radius: 50%;
+    background-color: yellow;
+}
+#index{
+    position: absolute;
+    background-color: blue;
+    width: 70px;
+    height: 20px;
+    color: white;
+    border-radius: 20px;
+    left: 14.5%;
+    top: 37%;
+}
+#join{
+    position: absolute;
+    color: white;
+    background-color: rgb(144, 36, 216);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    padding: 3px;
+    top: 22%;
+    left: 37%;
+}
+#join h4{
+    padding: 0px 7px;
+    font-size: 9px;
+    font-family: Open Sans;
+}
+#join i {
+    font-size: 9px;
+}
+#flag{
+    position: absolute;
+    width: 35px;
+    top: 45%;
+    left: 28.1%;
+}
+#like{
+    position: absolute;
+    height: 50px;
+    left: 41%;
+    transform: rotate(20deg);
+    top: 42%;
+}
+#index h2{
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 10px;
+}
+#plus h4{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+#line{
+    position: absolute;
+    border-top: 2px solid black;
+    width: 90%;
+    /* background-color: yellow; */
+    left: 50%;
+    bottom: 0%;
+    transform: translate(-50%, 0%);
+    font-family: Open Sans;
+    padding: 13px;
+}
+#line h3{
+    font-size: 13px;
+    font-weight: 400;
+}
+#line h2{
+    font-size:  20px;
+}
